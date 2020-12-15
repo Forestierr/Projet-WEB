@@ -1,0 +1,4 @@
+AuthName "Page d'administration protegee"
+AuthType Basic
+AuthUserFile "C:\xampp\htdocs\premier_site\BDD\.htpasswd"
+Require valid-user

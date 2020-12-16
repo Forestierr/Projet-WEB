@@ -27,9 +27,9 @@
 						$demande = $bdd->query('SELECT pseudo, message, DATE_FORMAT(date, "%d/%m/%Y") AS date FROM tchat ORDER BY id DESC LIMIT 0,10');
 						while ($donnees = $demande->fetch()) 
 						{
-							$pseudo = $donnees['pseudo'];
-							$date = $donnees['date'];
-							$message = $donnees['message'];
+							$pseudo = htmlspecialchars($donnees['pseudo']);
+							$date = htmlspecialchars($donnees['date']);
+							$message = htmlspecialchars($donnees['message']);
 							
 				  			$message = preg_replace('#\[b\](.+)\[/b\]#isU', '<strong>$1</strong>', $message);
 				  			$message = preg_replace('#\[i\](.+)\[/i\]#isU', '<em>$1</em>', $message);
@@ -50,6 +50,13 @@
 				</form>	
 			</div>
 		</section>
+		<h2>Le Code</h2>
+		<div id="code">
+			<div id="php">
+				<img src="../image/php1.PNG">
+				<img src="../image/php2.PNG">
+			</div>
+		</div>
 	</div>	
 </body>
 </html>

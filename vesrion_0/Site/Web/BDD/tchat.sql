@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  mer. 16 déc. 2020 à 11:00
+-- Généré le :  mer. 16 déc. 2020 à 13:57
 -- Version du serveur :  10.4.6-MariaDB
 -- Version de PHP :  7.3.9
 
@@ -36,6 +36,13 @@ CREATE TABLE `tchat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Déchargement des données de la table `tchat`
+--
+
+INSERT INTO `tchat` (`id`, `pseudo`, `message`, `date`) VALUES
+(1, 'Mom', '[b]b entre crochet et /b entre crochet[/b][br/]\r\n[i]i entre crochet texte et /i etre crochet[/i][br/]\r\n[m]m entre crochet texte et /m etre crochet[/m][br/]\r\n[color=blue]entre crochet color=blue + text + entre crochet /color[/color][br/]\r\nbr/ entre crochet => fait un routre à ligne', '2020-12-16');
+
+--
 -- Index pour les tables déchargées
 --
 
@@ -53,7 +60,7 @@ ALTER TABLE `tchat`
 -- AUTO_INCREMENT pour la table `tchat`
 --
 ALTER TABLE `tchat`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

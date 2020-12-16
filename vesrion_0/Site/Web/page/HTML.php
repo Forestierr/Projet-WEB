@@ -8,7 +8,7 @@
 		<div id="page">
 			<div id="titre_principal">
 				<div id="logo">
-					<img src="../image/Logo_ELO_BA.jpg" alt="logo BA"/>
+					<img src="../image/Logo_ELO_BA.png" alt="logo BA"/>
 					<h1>Le Web</h1>
 				</div>
 				<h2>Robin & Maxime</h2>
@@ -23,7 +23,6 @@
 		<section>	
 			<div id="tchat">
 				<h2>Tchat</h2>
-				
 				<form method="post" action="Tchat.php">
 					<label>Votre Pseudo: </label>
 					<input type="text" name="pseudo" required><br/>
@@ -32,6 +31,8 @@
 				</form>	
 			</div>
 		</section>
+		<h2>Le Code</h2>
+		<img src="../image/html.PNG">
 	</div>	
 	</body>
 </html>

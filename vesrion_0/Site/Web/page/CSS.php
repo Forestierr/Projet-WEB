@@ -11,6 +11,7 @@
 		<section>
 			<div id="tchat">
 				<h2>Tchat</h2>
+				<p></p>
 				<form method="post" action="Tchat.php">
 					<label>Votre Pseudo: </label>
 					<input type="text" name="pseudo" required><br/>
@@ -19,6 +20,14 @@
 				</form>	
 			</div>
 		</section>
+		<h2>Le Code</h2>
+		<div id="code">
+			<img src="../image/css3.PNG">
+			<div id="css">
+				<img src="../image/css.PNG">
+				<img src="../image/css2.PNG">
+			</div>
+		</div>
 	</div>	
 	</body>
 </html>

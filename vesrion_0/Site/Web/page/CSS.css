@@ -97,3 +97,47 @@ nav a:hover
 }
 
 /*page*/
+section
+{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#tchat p
+{
+	height: 400px;
+	width: 600px;
+	overflow: auto;
+}
+
+#page h2
+{
+	text-align: center;
+}
+
+#code
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#css
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#php img
+{
+	width: 1000px;
+	display: flex;
+	align-items: center;
+}
+
+img
+{
+	margin: 10px;
+}

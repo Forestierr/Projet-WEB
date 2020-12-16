@@ -1,0 +1,99 @@
+body
+{
+	background-image: url("../image/fond8.jpg");
+	background-attachment: fixed;
+}
+#page
+{
+	width: 1000px;
+	margin: auto;
+	background-color: rgba(18,18,18,0.2);
+}
+
+@media all AND (max-width: 1024px)
+{
+	body
+	{
+		background-image: url("../image/fond9.jpg");
+		background-attachment: fixed;
+		background-position: center; 
+		font-size: 20px;
+	}
+	#page
+	{
+		width: auto;
+	}
+}
+
+/*En-tête*/
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#titre_priclpal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#logo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+#logo img
+{
+	width: 59px;
+	height: 60px;
+}
+
+header h1
+{
+	font-family: Arial, sans-serif;
+	font-size: 2.5em;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+}
+
+header h2
+{
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 0px;
+}
+
+/* Navigation */
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+
+nav li
+{
+	margin-right: 15px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: #181818;
+	padding-bottom: 3px;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #00BB00;
+	border-bottom: 3px solid #00BB00;
+}
+
+/*page*/

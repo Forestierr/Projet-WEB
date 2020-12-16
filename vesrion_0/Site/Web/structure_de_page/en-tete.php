@@ -8,19 +8,15 @@
 		<div id="titre_principal">
 			<div id="logo">
 				<img src="../image/Logo_ELO_BA.jpg" alt="logo BA"/>
-				<h1>Serveur</h1>
+				<h1>Le Web</h1>
 			</div>
-			<h2>HTML5 & CSS3</h2>
+			<h2>Robin & Maxime</h2>
 		</div>
 		<nav>
 			<ul>
-				<li><a href="../page/Accueil.php#Accueil">Accueil</a></li>
-				<li><a href="../page/HTML5.php#HTML">HTML5</a></li>
-				<li><a href="../page/CSS3.php#CSS">CSS3</a></li>
-				<li><a href="../page/PHP.php#PHP">PHP</a></li>
-				<li><a href="../page/membres_connexion.php">Membres</a></li>
-				<li><a href="../page/Exercice.php#Pratique">Test</a></li>
-				<li><a href="../page/NASA.php#NASA">NASA</a></li>
+				<li><a href="../page/HTML.php#HTML">HTML5</a></li>
+				<li><a href="../page/CSS.php#CSS">CSS3</a></li>
+				<li><a href="../page/PHP.php#PHP">PHP & SQL</a></li>
 			</ul>
 		</nav>
 	</header>	

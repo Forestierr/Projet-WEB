@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  mar. 17 nov. 2020 à 16:37
+-- Généré le :  mer. 16 déc. 2020 à 11:00
 -- Version du serveur :  10.4.6-MariaDB
 -- Version de PHP :  7.3.9
 
@@ -19,22 +19,20 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données :  `nasa`
+-- Base de données :  `projet web`
 --
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `membres`
+-- Structure de la table `tchat`
 --
 
-CREATE TABLE `membres` (
+CREATE TABLE `tchat` (
   `id` int(11) NOT NULL,
   `pseudo` varchar(255) NOT NULL,
-  `pass` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `date_inscription` date NOT NULL,
-  `avatar` varchar(255) NOT NULL
+  `message` text NOT NULL,
+  `date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -42,9 +40,9 @@ CREATE TABLE `membres` (
 --
 
 --
--- Index pour la table `membres`
+-- Index pour la table `tchat`
 --
-ALTER TABLE `membres`
+ALTER TABLE `tchat`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -52,10 +50,10 @@ ALTER TABLE `membres`
 --
 
 --
--- AUTO_INCREMENT pour la table `membres`
+-- AUTO_INCREMENT pour la table `tchat`
 --
-ALTER TABLE `membres`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `tchat`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

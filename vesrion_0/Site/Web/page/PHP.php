@@ -4,6 +4,7 @@
 	<title>PHP & SQL</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<div id="page">
@@ -11,7 +12,7 @@
 		<section>
 			<div id="tchat">
 				<h2>Tchat</h2>
-				<p>
+				<div class="message">
 					<?php
 						try
 						{
@@ -41,7 +42,7 @@
 							echo '<strong> '.$pseudo.'</strong> Le '.$date.'<br/>'.$message.'<br/>';
 						}
 					?>
-				</p>
+				</div>
 				<form method="post" action="Tchat.php">
 					<label>Votre Pseudo: </label>
 					<input type="text" name="pseudo" required><br/>
@@ -57,6 +58,13 @@
 				<img src="../image/php2.PNG">
 			</div>
 		</div>
-	</div>	
+	</div>
+	<script>
+		setInterval(load_message, 2000);
+		function load_message()
+		{
+			$('.message').load('load.php');
+		}
+	</script>	
 </body>
 </html>

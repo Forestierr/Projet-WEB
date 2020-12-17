@@ -23,7 +23,7 @@
 		<section>	
 			<div id="tchat">
 				<h2>Tchat</h2>
-				<form method="post" action="Tchat.php">
+				<form method="post">
 					<label>Votre Pseudo: </label>
 					<input type="text" name="pseudo" required><br/>
 					<textarea name="message" rows="3" cols="80" required></textarea><br/>

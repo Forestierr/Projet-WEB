@@ -1,2 +1,2 @@
-﻿# Version 0
-Version 0 non terminée
+﻿# PowerPoint
+Version 0 du PPTX

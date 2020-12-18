@@ -103,7 +103,7 @@ section
 	margin-right: 200px;
 }
 
-#tchat p
+.message
 {
 	height: 400px;
 	width: 600px;

@@ -1,2 +1,4 @@
 ﻿# Version 0
-Version 0 non terminée
+Doc écrite terminée 
+Power Point non terminé
+Site Web terminé

@@ -1,6 +1,6 @@
-<h1 align="center"> Version 0 </h1>
+<h1 align="center"> Version 0 [Terminée] </h1>
 
-- [ ] Power Point
+- [x] Power Point
 - [x] Doc écrite
 - [x] Site Web
 
